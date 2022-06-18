@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+     .visual_t-pc{display: none;}
+.contents{width:100%;}
+.cont1{margin:80px auto 0; width:85%;overflow: hidden;}     
+.cont6-1_pc{display:none;}    
+       
+     
+/*.cont2_m */
+.contents .cont2_pc{display:none;} 
+.contents .cont2_m{width: 95%;}
+.contents .cont2_m li img{width: 100%;} 
+     
+/*.cont3_m*/      
+.contents .cont3_pc{display:none;} 
+.contents .cont3_mt li{width:50%; float:left;}  
+     
+     
+     
+.contents .cont3_mt {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.contents .cont3_mt img {
+    width: 100%;
+}
+
+.contents .cont3_mt li {
+    width: 50%;
+    float: left;
+    color: #000;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.contents .cont3_mt li .icon1 {
+    position: absolute;
+    top:11%;
+    left:7%;
+}
+
+.contents .cont3_mt li .icon1 img {
+    width: 100%;
+}
+
+.contents .cont3_mt li .icon2 {
+    position: absolute;
+    top:75%;
+    left:10%;
+    
+}
+
+.contents .cont3_mt li .icon2 img {
+    width: 95%;
+}
+
+.contents .cont3_mt li .icon3 {
+    position: absolute;
+    top:60%;
+    left: 60%;
+    
+}
+
+.contents .cont3_mt li .icon3 img {
+    width: 50%;
+}
+
+.contents .cont3_mt li .icon4 {
+    position: absolute;
+    top:60%;
+    left:71%;
+}
+
+.contents .cont3_mt li .icon4 img {
+    width: 50%;
+}
+
+
+.contents .cont3_mt .txt1 {
+    font: bold 15px "Gowun Dodum";
+
+}
+
+.contents .cont3_mt .txt2 {
+    font: bold 12px "Gowun Dodum";
+}
+
+.contents .cont3_mt .txt3 {
+    font: bold 14px "Gowun Dodum";
+}
+
+.contents .cont3_mt li:hover {
+    background: #000;
+}
+
+.contents .cont3_mt li:hover img {
+    opacity: 0.9
+}
+
+ 
+/*cont4_m*/  
+.contents .cont4{height: 150px;}     
+.contents .cont4 .cont4_inner .cont4_inner_t1{width:100%; position: relative; top:50px;} 
+.contents .cont4 .cont4_inner .cont4_inner_t1 img{width: 30%;}
+.contents .cont4 .cont4_inner .cont4_inner_t2{width:100%;position: relative; top:70px;} .contents .cont4 .cont4_inner .cont4_inner_t2 img{width: 30%;}
+     
+     
+/*.cont5_m*/  
+.contents .cont5{margin: 50px auto 0;}    
+.contents .cont5_pc{display:none;}
+.contents .cont5_t{display:none;}  
+         
+     
+/*.cont6_m*/
+.contents .cont6{width: 90%; margin: 100px auto;} 
+.contents .cont6 .cont6-2{width:100%}
+.contents .cont6 .cont6-2 div{width:100%}
+.contents .cont6-2 .cont6-2-2 li{width:50%;}
+
+    
+/*cont7_m*/     
+.contents .cont7{width:99%; margin:100px auto 0;}
+.contents .cont7>div{position:relative; float:left; width:50%; margin-right:0;} 
+.contents .cont7>div:last-child{margin-right:0%;} 
+.contents .cont7 .cont7_inner img{width:100%;} 
+
+.contents .cont7 .cont7_inner .cap p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 55%;
+    color: #fff;
+    font: bold 16px "Hahmlet";
+    width: 90%;
+}
+
+.contents .cont7 .cont7_inner .cap p span {
+    font: normal 12px "Hahmlet";
+    line-height: 4px;
+}   
+     
+     
+     
+/*cont8_m*/     
+.contents .cont8{width:100%;  height:130px;  margin: 0 auto; margin-top: 100px;}  
+.contents .cont8_inner .cont8_inner_txt1{width: 100%;}     
+.contents .cont8_inner .cont8_inner_txt1 img{width: 100%; height: 130px;}       
+     
+     
+/*cont9_m*/
+.cont9 li{width:33.33333%;}
+.cont9 li:nth-child(7),
+.cont9 li:nth-child(8),     
+.cont9 li:nth-child(9){display:none;}     
+.cont9 li:last-child{display:none;}   
+     
+     
+     
+.cont10{ height: 100px; }       
+     
+}
+
+
+
+
+
+
+
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+ @media screen and (min-width:640px) and (max-width:1024px){
+     .visual_m{display: none;}
+.contents{width:100%;} 
+.contents .cont2_m{display:none;} 
+.contents .cont3_pc{display:none;}     
+     
+.contents .cont5_pc{display:none;}
+.contents .cont5_m{display:none;}
+.contents .cont5_m .txt1, .contents .cont5_m .txt2,.contents .cont5_m .txt3{display:none;}  
+.contents .cont6 .cont6-1_pc{display:none;}  
+     
+     
+/*.cont2  */   
+.contents .cont2{width:90%; margin: 0 auto 50px;}  
+.contents .cont2 h2 {
+    font: bold 28px "맑은 고딕", Malgun Gothic;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    left: -100px;
+}         
+
+.contents .cont2_pc li .txt1 {
+    font: bold 14px "Gowun Dodum";
+}
+
+.contents .cont2_pc li .txt2 {
+    font: bold 11px "Gowun Dodum";
+}
+
+.contents .cont2_pc li .txt3 {
+    font: bold 16px "Gowun Dodum";
+}          
+     
+/*cont3*/
+.contents .cont3_mt li{width:50%; float:left; margin: 0 auto;}     
+
+.contents .cont3_mt li .icon1{
+    position: absolute;
+    top:10%;
+    left:7%;
+     }
+     
+.contents .cont3_mt li .icon1 img {
+    width: 130%;
+}
+
+.contents .cont3_mt li .icon2 {
+    position: absolute;
+    top:75%;
+    left:20%;
+}
+
+.contents .cont3_mt li .icon2 img {
+    width: 120%;
+}
+
+.contents .cont3_mt li .icon3 {
+    position: absolute;
+    top:60%;
+    left: 60%;
+}
+
+.contents .cont3_mt li .icon3 img {
+    width: 68%;
+}
+
+.contents .cont3_mt li .icon4 {
+    position: absolute;
+    top:60%;
+    left: 68%;
+}
+
+.contents .cont3_mt li .icon4 img {
+    width: 68%;
+}
+
+
+.contents .cont3_mt .txt1 {
+    font: bold 18px "Gowun Dodum";
+
+}
+
+.contents .cont3_mt .txt2 {
+    font: bold 15px "Gowun Dodum";
+}
+
+.contents .cont3_mt .txt3 {
+    font: bold 17px "Gowun Dodum";
+}
+
+     
+/*.cont6*/           
+.contents .cont6 .cont6-2{width:100%}
+.contents .cont6 .cont6-2 div{width:100%}
+.contents .cont6-2 .cont6-2-2 li{width:50%;}    
+
+     
+/*cont7*/
+.contents .cont7{width:95%; margin: 0 auto; margin-top: 150px;}
+.contents .cont7>div{position:relative; float:left; width:47%; margin-right:6%; overflow:hidden; }
+.contents .cont7>div:last-child{margin-right: 0%;}
+.contents .cont7 .cont7_inner img{width: 100%;} 
+
+.contents .cont7 .cont7_inner .cap p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 51%;
+    color: #fff;
+    font: bold 19px "Hahmlet";
+    width: 90%;
+}
+
+.contents .cont7 .cont7_inner .cap p span {
+    font: normal 16px "Hahmlet";
+    line-height: 4px;
+}     
+ 
+/*cont8*/
+.contents .cont8{width:100%;  height:170px;  margin: 0 auto; margin-top: 100px;}  
+.contents .cont8_inner .cont8_inner_txt1{width: 100%;}     
+.contents .cont8_inner .cont8_inner_txt1 img{width: 100%; height: 170px;}   
+     
+     
+/*.cont9*/        
+.cont9 li{width:33.33333%;}
+.cont9 li:last-child{display:none;}  
+     
+.cont10{ height: 150px;background-size:auto;}  
+     
+}
+
+
+
+
+/*pc*/
+@media all and (min-width:1024px){
+.visual_m{display: none;}    
+.contents{width:100%;}   
+.contents .cont3_mt , .contents .cont2_m, .contents .cont2_t, .cont5_m , .cont5_t{display:none;}     
+.visual{margin-top: 80px;}    
+
+    
+    
+/*cont1*/
+.cont1{margin:150px auto 0; width:90%;overflow: hidden;}    
+    
+    
+/*cont2*/
+.contents .cont2{width:80%;} 
+.contents .cont2 h2 {
+    font: bold 28px "맑은 고딕", Malgun Gothic;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    left: -100px;
+}    
+.contents .cont2_pc li .txt1 {
+    font: bold 16px "Gowun Dodum";
+    }
+
+.contents .cont2_pc li .txt2 {
+    font: bold 12px "Gowun Dodum";
+}
+
+.contents .cont2_pc li .txt3 {
+    font: bold 16px "Gowun Dodum";
+}  
+    
+    
+    
+/*cont5*/    
+.contents .cont5{margin:0 auto; height: 800px;}    
+
+    
+/*cont6*/ 
+.contents .cont6{width:90%; margin: 0 auto;}    
+.contents .cont6 .cont6-1_pc{width:42.39583333333333%}    
+.contents .cont6 .cont6-2{width:57.60416666666667%}    
+.contents .cont6-2 .cont6-2-2 li{width:50%;}
+    
+    
+/*cont7*/     
+.contents .cont7{width:80%; margin: 0 auto; margin-top: 150px;}
+.contents .cont7>div{position:relative; float:left; width:46%; margin-right:8%; overflow:hidden;}    
+.contents .cont7>div:nth-child(2){float:left; margin-right:0%;} 
+.contents .cont7 .cont7_inner .cap p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 51%;
+    color: #fff;
+    font: bold 35px "Hahmlet";
+    width: 90%;
+}
+
+.contents .cont7 .cont7_inner .cap p span {
+    font: normal 20px "Hahmlet";
+}
+    
+    
+/*cont8*/
+.contents .cont8{width:100%;  height:260px;  margin: 0 auto; margin-top: 100px;}  
+.contents .cont8_inner .cont8_inner_txt1{width: 100%;}     
+.contents .cont8_inner .cont8_inner_txt1 img{width: 100%; height: 260px;}        
+  
+    
+/*cont9*/    
+.contents .cont9 li{width:20%;}    
+    
+    
+    
+    
+/*cont10*/
+    .cont10{ height: 150px;background-size:auto;}      
+    
+       
+    
+}
+
+
+
+
+
