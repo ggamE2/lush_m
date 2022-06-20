@@ -4,7 +4,7 @@
 /* 모바일 */
  @media screen and (max-width:639px){
 .visual_t-pc{display: none;}
-#best{display:none;}
+#best4, #best_bg4{display: none;}
 .contents{width:100%;}
 .cont1{margin:80px auto 0; width:85%;overflow: hidden;}     
 .cont6-1_pc{display:none;}    
